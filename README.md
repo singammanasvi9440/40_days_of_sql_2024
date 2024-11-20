@@ -8,8 +8,7 @@
 Write a SQL query to obtain a histogram of tweets posted per user in 2022. Output the tweet count per user as the bucket and the number of Twitter users who fall into that bucket.
 
 In other words, group the users by the number of tweets they posted in 2022 and count the number of users in each group
-𝐁𝐭𝐰, 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐟𝐢𝐧𝐝 𝐭𝐡𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 𝐡𝐞𝐫𝐞: 
-https://datalemur.com/questions/sql-histogram-tweets
+
 𝐌𝐲 𝐓𝐡𝐨𝐮𝐠𝐡𝐭 𝐏𝐫𝐨𝐜𝐞𝐬𝐬:
 
 1. 𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐲𝐢𝐧g frequency of tweets by each user:
