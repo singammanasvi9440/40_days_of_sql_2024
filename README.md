@@ -81,3 +81,28 @@ FROM (
  HAVING COUNT(*) > 1
 ) AS a;
 
+
+#Day 3
+
+Number of Posts in SQL 🧑‍💻
+Ever wondered how to identify average posts of person in social media? 
+
+Question link: https://datalemur.com/questions/sql-average-post-hiatus-1
+
+The Problem: 
+We need to identify users who  who posted at least twice in a year. 
+
+Here's how I approached it:
+
+Using a combination of GROUP BY and HAVING to track the most recent post date for each user, and then comparing that against the current date using max and min functions.
+
+
+Query: 
+SELECT user_id,
+extract(day from ( max(post_date)- min(post_date))) as days_between
+FROM posts
+where post_date between '2021-01-01' and '2021-12-31'
+group by user_id 
+having count(post_date)>1;
+
+
