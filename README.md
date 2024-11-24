@@ -58,8 +58,12 @@ This query can be adapted for larger datasets to obtain the desired histogram of
 
  Solving Duplicate Job Listings in SQL 🧑‍💻
 Ever wondered how to identify companies that post duplicate job listings? 
+
+
 Question link: https://lnkd.in/giaK8wZY
+
 The Problem: 
+
 We need to find how many companies have posted duplicate job listings — listings with the same title and description within the same company. This is a common challenge when analyzing job posting data across platforms like LinkedIn.
 Here's how I approached it:
 Using a combination of GROUP BY and HAVING COUNT(*) > 1, we can easily identify duplicate entries and use the subquery to count the number of companies affected.
