@@ -82,7 +82,7 @@ FROM (
 ) AS a;
 
 
-#Day 3
+# Day 3
 
 Number of Posts in SQL 🧑‍💻
 Ever wondered how to identify average posts of person in social media? 
